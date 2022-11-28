@@ -12,6 +12,7 @@
 	<groupId>com.devsuperior</groupId>
 	<artifactId>dsmeta</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>	
 	<name>dsmeta</name>
 	<description>Projeto Semana Spring React</description>
 	<properties>
