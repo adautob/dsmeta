@@ -3,6 +3,7 @@ package com.devsuperior.dsmeta.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +24,7 @@ public class SaleController {
 	@Autowired
 	private SmsService smsService;
 	
+	@CrossOrigin(origins = "http://129.159.53.180")
 	@GetMapping
 	public Page<Sale> findSales(
 			@RequestParam(value="minDate", defaultValue="") String minDate, 
@@ -31,6 +33,7 @@ public class SaleController {
 		return service.findSales(minDate, maxDate, pageable);
 	}
 	
+	@CrossOrigin(origins = "http://129.159.53.180")
 	@GetMapping("/{id}/notification")
 	public void notifySms(@PathVariable Long id) {
 		smsService.sendSms(id);
