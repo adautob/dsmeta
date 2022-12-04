@@ -6,9 +6,11 @@ Projeto criado durante a semana Spring React. Api Rest no backend com Spring Boo
 
 Demo do projeto: https://dsmeta-adauto.netlify.app/
 
+# Sobre o projeto
+
 ## Layout web
 
-# Sobre o projeto![dsmeta](https://user-images.githubusercontent.com/95452249/205204998-dcdc0d55-fe17-4222-8cd6-aa536b7639b7.png)
+![dsmeta](https://user-images.githubusercontent.com/95452249/205204998-dcdc0d55-fe17-4222-8cd6-aa536b7639b7.png)
 
 
 # Tecnologias utilizadas
