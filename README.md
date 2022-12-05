@@ -27,8 +27,6 @@ Demo do projeto: https://dsmeta-adauto.netlify.app/
 - JavaScript
 - Bootstrap
 
-# Como executar o projeto
-
 ## Back end
 Pré-requisitos: Java 17
 
